@@ -13,7 +13,7 @@ In CTFs, “Misc.” challenges are some of my favorite to solve (and write): un
 
 > I made a service where people can upload C code to my server and run it! The best part is that it's completely secure! Try running the number guessing game I made :)
 > Connect via `cat program.c - | nc secure-runner.sdc.tf 1337`
-> (program.c)[]
+> [program.c](/assets/sdctf-2023/program.c)
 
 Just from reading the description, this sounds like the world’s easiest RCE: we can upload anything and the computer will just run it no questions asked? Let’s do some testing to actually see if this works.
 
